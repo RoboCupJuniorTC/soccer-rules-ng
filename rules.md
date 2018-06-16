@@ -222,11 +222,14 @@ fixed if the team needs to do so, as described in 1.11.
 
 After the penalty time has passed, robot will be placed on the
 unoccupied neutral spot nearest to where it has been taken off,
-{~~and not directly aiming towards the ball~>orientated towards the nearest wall~~}.
+{~~and not directly aiming towards the ball~~->orientated towards the nearest wall|}.
+{++Alternatively, the referee may instruct the team to place the robot 
+on the neutral spot on the side of the field currently farthest from the ball, 
+oriented towards the closest wall.++}
 
 A referee can waive the penalty if the robot was accidentally pushed out
-of bounds by robot. In such a case, the referee may have to slightly
-push the robot back onto the field.
+of bounds by {~~an opposing~~->any other|} robot. In such a case, the 
+referee may have to slightly push the robot back onto the field.
 
 The ball can leave and bounce back into the playing field. The referee
 calls “out of reach”, and will move the ball to the nearest unoccupied
